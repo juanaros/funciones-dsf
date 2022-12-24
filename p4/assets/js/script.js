@@ -1,29 +1,29 @@
 document.addEventListener('keydown', function (event){
     if(event.key === 'a') {
-        changeColor = '#0000ff';
+        cambiarColor = '#0000ff';
     } else if(event.key === 's') {
-        changeColor = '#000000';
+        cambiarColor = '#000000';
     } else if(event.key === 'd') {
-        changeColor = '#f00000';
+        cambiarColor = '#f00000';
     }
 })
 
 document.querySelector('#alfa').addEventListener('click', () => {
     color1 = document.querySelector('#alfa');
-    color1.style.backgroundColor = changeColor;
+    color1.style.backgroundColor = cambiarColor;
 })
 
 document.querySelector('#beta').addEventListener('click', () => {
     color2 = document.querySelector('#beta');
-    color2.style.backgroundColor = changeColor;
+    color2.style.backgroundColor = cambiarColor;
 })
 
 document.querySelector('#gamma').addEventListener('click', () => {
     color3 = document.querySelector('#gamma');
-    color3.style.backgroundColor = changeColor;
+    color3.style.backgroundColor = cambiarColor;
 })
 
 document.querySelector('#delta').addEventListener('click', () => {
     color4 = document.querySelector('#delta');
-    color4.style.backgroundColor = changeColor;
+    color4.style.backgroundColor = cambiarColor;
 })
